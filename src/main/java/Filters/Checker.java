@@ -54,13 +54,13 @@ public class Checker {
         alert.setHeaderText("Wrong format!");
         switch (para) {
             case NAME:
-                alert.setContentText("Remember to use capitals! (Example: Andy");
+                alert.setContentText("Remember to use capitals! (Example: Andy)");
                 break;
             case DATE:
-                alert.setContentText("Format of date is yyyy.mm.dd (Example: 2007.06.25");
+                alert.setContentText("Format of date is yyyy.mm.dd (Example: 2007.06.25)");
                 break;
             case OWNER:
-                alert.setContentText("Remember to use capitals and full name! (Example: Matt Smith");
+                alert.setContentText("Remember to use capitals and full name! (Example: Matt Smith)");
                 break;
             case WEIGHT:
                 alert.setContentText("Example: 5.2");
