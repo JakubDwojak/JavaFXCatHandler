@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="203.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.Controllers.AddController">
+   <children>
+      <Label text="Name of the cat  (Remember to use capital letters!)" textAlignment="CENTER">
+         <VBox.margin>
+            <Insets left="164.5" />
+         </VBox.margin>
+      </Label>
+      <TextField fx:id="name" />
+      <Label text="Weight  (Example 5.7)">
+         <VBox.margin>
+            <Insets left="242.0" />
+         </VBox.margin>
+      </Label>
+      <TextField fx:id="weight" />
+      <Label text="Birth Date  (Format: yyyy.mm.dd)">
+         <VBox.margin>
+            <Insets left="213.0" />
+         </VBox.margin>
+      </Label>
+      <TextField fx:id="date" />
+      <Label text="Owner">
+         <VBox.margin>
+            <Insets left="282.5" />
+         </VBox.margin>
+      </Label>
+      <TextField fx:id="owner" prefWidth="600.0" />
+      <ToolBar prefHeight="24.0" prefWidth="600.0">
+        <items>
+          <Button fx:id="add" mnemonicParsing="false" text="Add" />
+            <Button fx:id="clear" mnemonicParsing="false" text="Clear" />
+            <ComboBox fx:id="box" prefWidth="150.0" promptText="Choose value"/>
+            <TextField fx:id="text" prefHeight="25.0" prefWidth="344.0" />
+        </items>
+      </ToolBar>
+   </children>
+</VBox>
